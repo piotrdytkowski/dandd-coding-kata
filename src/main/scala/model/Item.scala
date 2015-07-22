@@ -1,7 +1,7 @@
 package model
 
-sealed abstract class ItemType
+sealed abstract class Item
 
-case class Bone() extends ItemType
-case class Scroll() extends ItemType
-case class Coin() extends ItemType
+case class Bone() extends Item
+case class Scroll() extends Item
+case class Coin() extends Item

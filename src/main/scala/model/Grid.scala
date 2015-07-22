@@ -1,5 +1,3 @@
 package model
 
-case class Grid() {
-
-}
+case class Grid(initGrid:Array[Array[Cell]])
